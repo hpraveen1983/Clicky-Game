@@ -1,24 +1,32 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 240px;
+  height: 250px;
   margin: 1rem;
-  margin-top: 10px;
   position: relative;
-  width: 270px;
+  width: 325px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.card > .img-container {
+  height: 100%;
   overflow: hidden;
+  text-align: center;
+  background:#6CADDC;
+}
+.card > .img-container > img {
+  width: 60%
 }
 
-/* Slide */
- .hover img {
-	margin-left: 10px;
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
 }
-.hover img:hover  {
-	margin-left: -30px;
 
-}
+
+
+
+
+
